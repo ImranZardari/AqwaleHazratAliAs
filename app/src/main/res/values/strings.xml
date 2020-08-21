@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aqwal Hazrat Ali A.s</string>
+    <string name="app_info">This Application Provides Hadiths(Hadees), Aqwals And provides videos of Noha,Majalis,Azadari...</string>
+    <string name="info_splash">Developer : Imran Ali\t\t\nPowered By : Nano Dev Lab</string>
+    <string name="credits">Credits:\nGraphics Designer : Rashid Ali</string>
+    <string name="specialThanks">Proprietor : Rashid Ali Zardari\n\nSpecial Thanks to Allah and Panjtan Pak as</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

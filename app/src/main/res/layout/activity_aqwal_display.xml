@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AqwalDisplay">
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/disp_bannerAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8002015381165076/7241668763">
+    </com.google.android.gms.ads.AdView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/DisplayAqwalVPager"
+        android:layout_below="@id/disp_bannerAd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lowerLayout"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lowerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        >
+
+        <Button
+            android:id="@+id/SvButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_download"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+
+        <Button
+            android:id="@+id/SrButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_share2"
+            android:layout_marginLeft="10dp"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+        <Button
+            android:id="@+id/RtButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_rate"
+            android:layout_marginLeft="10dp"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

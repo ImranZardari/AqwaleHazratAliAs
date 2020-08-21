@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/mushaf2">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.ViewDuas"
+    >
+
+
+    <SeekBar
+        android:id="@+id/textSizeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:id="@+id/duaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_horizontal"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="gravity"
+        android:text="Hello World!"
+        android:layout_below="@id/textSizeSeekBar"
+        />
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

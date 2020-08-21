@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Ziarats">
+
+    <LinearLayout
+        android:id="@+id/ziaratBackgroundLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout"
+        android:orientation="vertical" />
+
+
+    <TextView
+        android:id="@+id/ziaratFragmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="زیارات"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ziaratRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/dua_childitem"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+</RelativeLayout>

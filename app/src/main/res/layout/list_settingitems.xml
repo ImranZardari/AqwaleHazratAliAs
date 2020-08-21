@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/listItemImage"/>
+
+
+            <TextView
+                android:id="@+id/listItemDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Application"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
